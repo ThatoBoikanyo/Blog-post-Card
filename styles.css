@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(105, 206, 206);
+}
+
+.blog-post-card {
+    background-color: rgb(199, 197, 197);
+    border-radius: 8px;
+    width: fit-content;
+    text-align: center;
+}
+
+.post-img {
+    width: 60%;
+    border-bottom: 16px;
+    padding-top: 20px;
+}
+
+.post-content {
+    padding: 100px;
+}
+
+.post-title,
+.post-excerpt {
+    color: rgb(221, 139, 33);
+
+}
+
+.read-more{
+    color: purple;
+    background-color: beige;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.read-more:hover {
+    background-color: blueviolet;
+}
